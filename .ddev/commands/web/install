@@ -1,0 +1,7 @@
+#!/bin/bash
+
+## Description: Set up the demo
+## Usage: install
+## Example: ddev install
+
+php vendor/bin/drush site:install --account-pass=admin --existing-config --yes
