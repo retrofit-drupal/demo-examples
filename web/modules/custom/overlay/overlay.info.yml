@@ -1,0 +1,4 @@
+name: Overlay
+description: Displays the Drupal administration interface in an overlay.
+type: module
+core_version_requirement: '*'

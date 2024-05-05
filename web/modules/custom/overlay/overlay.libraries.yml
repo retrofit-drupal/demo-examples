@@ -1,0 +1,21 @@
+# TODO remove after https://github.com/retrofit-drupal/retrofit/issues/161
+parent:
+  version: VERSION
+  js:
+    overlay-parent.js: {}
+  css:
+    component:
+      overlay-parent.css: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
+child:
+  version: VERSION
+  js:
+    overlay-child.js: {}
+  css:
+    component:
+      overlay-child.css: {}
+  dependencies:
+    - core/jquery
+    - core/drupal

@@ -3265,12 +3265,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/retrofit-drupal/retrofit.git",
-                "reference": "9f40f63069b3ee5c024069464b11346b40c1dd0f"
+                "reference": "2b89a18994756598f9d6e1db6a7b0616345be8de"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/retrofit-drupal/retrofit/zipball/9f40f63069b3ee5c024069464b11346b40c1dd0f",
-                "reference": "9f40f63069b3ee5c024069464b11346b40c1dd0f",
+                "url": "https://api.github.com/repos/retrofit-drupal/retrofit/zipball/2b89a18994756598f9d6e1db6a7b0616345be8de",
+                "reference": "2b89a18994756598f9d6e1db6a7b0616345be8de",
                 "shasum": ""
             },
             "require": {
@@ -3328,7 +3328,7 @@
                     "type": "ko_fi"
                 }
             ],
-            "time": "2024-03-07T12:41:35+00:00"
+            "time": "2024-03-21T18:39:44+00:00"
         },
         {
             "name": "sebastian/diff",

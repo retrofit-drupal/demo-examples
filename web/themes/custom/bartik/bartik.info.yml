@@ -7,6 +7,12 @@ core_version_requirement: ^10
 # TODO add this automatically.
 base theme: false
 
+# TODO Retrofit should add this + normalize automatically
+libraries:
+  - core/normalize
+  - bartik/global-styling
+
+
 # TODO convert to library
 stylesheets:
   all:

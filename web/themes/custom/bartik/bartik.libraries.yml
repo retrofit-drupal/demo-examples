@@ -1,0 +1,10 @@
+# @todo retrofit should auto generate this
+global-styling:
+  version: VERSION
+  css:
+    layout:
+      css/layout.css: {}
+    theme:
+      css/style.css: { }
+      css/colors.css: {}
+      css/print.css: { media: print }
