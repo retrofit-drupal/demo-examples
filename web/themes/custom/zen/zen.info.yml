@@ -1,0 +1,56 @@
+name: Zen
+description: Zen sub-themes are the ultimate starting themes for Drupal 7. Read the <a href="https://drupal.org/node/873778">online docs</a> or the included README-FIRST.txt on how to create a theme with Zen.
+screenshot: zen-internals/screenshot.png
+type: theme
+core_version_requirement: '*'
+
+# TODO add this automatically.
+base theme: false
+
+# TODO Retrofit should add this + normalize automatically
+libraries:
+  - core/normalize
+  - zen/global-styling
+
+# TODO convert to library
+stylesheets:
+  all:
+    - system.base.css
+    - system.menus.css
+    - system.messages.css
+    - system.theme.css
+    - comment.css
+    - node.css
+
+regions:
+  header: Header
+  navigation: Navigation
+  highlighted: Highlighted
+  help: Help
+  content: Content
+  sidebar_first: Sidebar first
+  sidebar_second: Sidebar second
+  footer: Footer
+  bottom: Bottom
+  page_top: Page top
+  page_bottom: Page bottom
+
+# TODO convert to schema
+settings:
+  zen_breadcrumb: 'yes'
+  zen_breadcrumb_separator: ' › '
+  zen_breadcrumb_home: 1
+  zen_breadcrumb_trailing: 0
+  zen_breadcrumb_title: 0
+  zen_skip_link_anchor: main-menu
+  zen_skip_link_text: Jump to navigation
+  zen_meta:
+    - html5
+    - meta
+  zen_rebuild_registry: 0
+
+# TODO ctools support
+plugins:
+  panels:
+    layouts:
+      - panels-layouts
